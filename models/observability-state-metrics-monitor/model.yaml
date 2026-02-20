@@ -1,0 +1,20 @@
+schema_version: "2.0"
+title: "Observability: StateMetricsMonitor"
+description: "Aggregates descriptive metrics from heterogeneous state streams and provides monitor visuals."
+standard: other
+tags: [observability, monitor, metrics, visualization]
+authors: ["Biosimulant Team"]
+biosim:
+  entrypoint: "src.state_metrics_monitor:StateMetricsMonitor"
+  init_kwargs:
+    max_points: 2000
+    min_dt: 1.0
+  min_dt: 1.0
+runtime:
+  python_version: "3.12"
+  dependencies:
+    packages:
+      - pyyaml==6.0.2
+io:
+  inputs: [state_a, state_b, state_c, state_d]
+  outputs: [metrics]
