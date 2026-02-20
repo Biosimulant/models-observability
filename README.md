@@ -4,15 +4,6 @@ Public curated monitor model repository for Biosimulant spaces.
 
 This repo provides reusable observability models that can be referenced from spaces in other split repos.
 
-## Repository
-
-- GitHub: https://github.com/Biosimulant/models-observability
-- Clone:
-
-```bash
-git clone git@github.com:Biosimulant/models-observability.git
-```
-
 ## Included Models
 
 - `observability-state-comparison-monitor`
