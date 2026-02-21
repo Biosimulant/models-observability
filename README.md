@@ -1,24 +1,22 @@
 # models-observability
 
-Public curated monitor model repository for Biosimulant spaces.
+Curated **observability** monitor models for the **biosim** platform. This repository provides reusable monitoring and comparison tools that can be referenced from spaces across all model repositories.
 
-This repo provides reusable observability models that can be referenced from spaces in other split repos.
+## What's Inside
 
-## Included Models
+### Models (2 packages)
 
-- `observability-state-comparison-monitor`
-  - Inputs: `state_a`, `state_b`, `state_c`, `state_d`
-  - Outputs: `comparison_state`
-  - Visuals: `timeseries` + `table`
+**Observability** — state monitoring, comparison, and metrics calculation:
 
-- `observability-state-metrics-monitor`
-  - Inputs: `state_a`, `state_b`, `state_c`, `state_d`
-  - Outputs: `metrics`
-  - Visuals: `timeseries` + `table`
+- `observability-state-comparison-monitor` — Compares multiple state inputs with timeseries and table visualizations
+- `observability-state-metrics-monitor` — Calculates metrics from state inputs with timeseries and table output
 
-## Validation
+These models are designed to be cross-cutting utilities for monitoring and analyzing simulation states across different biological domains.
 
+## Prerequisites
 ```bash
-python scripts/validate_manifests.py
-python scripts/check_entrypoints.py
+pip install "biosim @ git+https://github.com/BioSimulant/biosim.git@main"
 ```
+
+## License
+Dual-licensed: Apache-2.0 (code), CC BY 4.0 (content)
