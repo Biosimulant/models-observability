@@ -1,0 +1,4 @@
+models:
+- models/observability-state-comparison-monitor/model.yaml
+- models/observability-state-metrics-monitor/model.yaml
+spaces: []
