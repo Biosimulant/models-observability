@@ -1,6 +1,6 @@
 schema_version: "2.0"
 title: "Observability: StateComparisonMonitor"
-description: "Compares heterogeneous state streams and provides comparative visuals and summaries."
+description: "Compares heterogeneous state streams and provides comparative visuals and summaries. It can be used to explore observability state comparison monitor dynamics and compare simulation behavior across conditions."
 standard: other
 tags: [observability, monitor, visualization, comparison]
 authors: ["Biosimulant Team"]

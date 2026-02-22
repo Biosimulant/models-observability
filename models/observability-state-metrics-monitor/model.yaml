@@ -1,6 +1,6 @@
 schema_version: "2.0"
 title: "Observability: StateMetricsMonitor"
-description: "Aggregates descriptive metrics from heterogeneous state streams and provides monitor visuals."
+description: "Aggregates descriptive metrics from heterogeneous state streams and provides monitor visuals. It can be used to explore observability state metrics monitor dynamics and compare simulation behavior across conditions."
 standard: other
 tags: [observability, monitor, metrics, visualization]
 authors: ["Biosimulant Team"]
